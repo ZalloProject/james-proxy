@@ -33,8 +33,8 @@
   z-index: 100000;
 }
 .styles__bigBOX___3-KEG {
-  width: 90%;
-  margin-left: 5%;
+  width: 1000px;
+  margin: auto;
 }
 .styles__xOut___3OSz2 > svg {
   width: 20px;
@@ -45,9 +45,8 @@
   height: 100vh;
   background-color: white;
   opacity: 1;
-  width: 970px;
+  width: 100%;
   z-index: 10000000000;
-  margin-left: 14%;
   /* padding-left: 0.5%;
   padding-right: 0.5%; */
   overflow-y: scroll;
