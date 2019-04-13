@@ -37,8 +37,11 @@
       </div>
     </div>
   </div>
-  <!-- <script src="app-bundle.js"></script> -->
-  <script src="https://s3-us-west-1.amazonaws.com/map-bucket-zallo/app-bundle.gz.js"></script>
+  <script
+    async
+    defer
+    src="https://s3-us-west-1.amazonaws.com/map-bucket-zallo/app-bundle.gz.js"
+  ></script>
   <script
     async
     defer
@@ -54,26 +57,6 @@
     defer
     src="https://s3.us-east-2.amazonaws.com/fecappfiles/bundleSearchGZ.js"
   ></script>
-  <script
-    async
-    defer
-    src="https://s3-us-west-1.amazonaws.com/zallo-project-gendesc-service/app-bundle.gz.js"
-  ></script>
-  <script
-    async
-    defer
-    src="https://s3-us-west-1.amazonaws.com/zallosimilarhomes/bundle-gz.js"
-  ></script>
-  <script
-    async
-    defer
-    src="https://s3.us-east-2.amazonaws.com/fecappfiles/bundle.js"
-  ></script>
-  <script
-    async
-    defer
-    src="https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/form-service/bundleGZ.js"
-  ></script>
   <script>
     document.querySelector(".xOut").innerHTML =
       window.innerWidth < 900
@@ -82,6 +65,29 @@
     window.addEventListener("house_view", e => {
       let mainContainer = document.getElementById("mainContainer");
       mainContainer.style.display = e.detail.houseView ? "unset" : "none";
+      let genDesc = document.createElement("script");
+      genDesc.async = true;
+      genDesc.defer = true;
+      genDesc.src =
+        "https://s3-us-west-1.amazonaws.com/zallo-project-gendesc-service/app-bundle.gz.js";
+      let similarHomes = document.createElement("script");
+      similarHomes.async = true;
+      similarHomes.defer = true;
+      similarHomes.src =
+        "https://s3-us-west-1.amazonaws.com/zallosimilarhomes/bundle-gz.js";
+      let photos = document.createElement("script");
+      photos.async = true;
+      photos.defer = true;
+      photos.src = "https://s3.us-east-2.amazonaws.com/fecappfiles/bundle.js";
+      let formService = document.createElement("script");
+      formService.async = true;
+      formService.defer = true;
+      formService.src =
+        "https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/form-service/bundleGZ.js";
+      document.body.appendChild(genDesc);
+      document.body.appendChild(similarHomes);
+      document.body.appendChild(photos);
+      document.body.appendChild(formService);
       document.getElementById("results").style.display = "none";
     });
     document.querySelector(".xOut").addEventListener("click", e => {
