@@ -89,5 +89,13 @@
       mainContainer.style.display = "none";
       document.getElementById("results").style.display = "";
     });
+    document
+      .querySelector("#mainContainer")
+      .addEventListener("click", function(e) {
+        if (e.target !== this) return;
+        let mainContainer = document.getElementById("mainContainer");
+        mainContainer.style.display = "none";
+        document.getElementById("results").style.display = "";
+      });
   </script>
 </body>
