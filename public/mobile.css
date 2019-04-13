@@ -84,9 +84,14 @@
 }
 .googleMapContainer {
   width: 100% !important;
+  height: 90vw !important;
 }
 .style__results-more-filters-dd__3tk6K {
-  left: 87.5% !important;
+  left: 41.5% !important;
+  position: absolute;
+}
+.style__results-buttons__1Ca8W {
+  width: 100% !important;
 }
 .style__homeOptionContainer___3dhcI {
   position: absolute;
@@ -94,6 +99,9 @@
 }
 .style__results-container__142a4 {
   max-height: 85vh;
+}
+.style__results-buttons-row__2xr3d {
+  position: relative !important;
 }
 .style__superNavAgentModal___SDwvO,
 .style__superNavLoansModal___2Dfr0,

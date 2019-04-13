@@ -72,7 +72,7 @@ body {
   width: 63vw !important;
 }
 .style__results-more-filters-dd__3tk6K {
-  left: 87.5% !important;
+  left: 67.5% !important;
 }
 .style__homeOptionContainer___3dhcI {
   position: absolute;
@@ -91,4 +91,7 @@ body {
 }
 .containerMid {
   display: flex;
+}
+.style__results-buttons-row__2xr3d {
+  position: relative !important;
 }
