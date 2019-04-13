@@ -4,14 +4,27 @@
   margin-bottom: 25px;
 }
 #form-service {
-  margin-left: 55px;
+  margin-top: 10% !important;
+  padding: 11%;
+  border-top: 1px solid #ccc;
 }
+
 .style__formOuterContainer___12WXq {
   padding-bottom: 5px;
 }
-.similar-homes-container > h1 {
-  margin-left: 25%;
+.style__similarHomesHeader__1rbsb {
+  margin-left: 17% !important;
   margin-bottom: 10px;
+}
+.styles__containerTop___3ChHD > div > h5 {
+  display: flex;
+  align-items: center;
+}
+#red-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
 }
 .styles__containerTop___3ChHD {
   flex-direction: column-reverse !important;
@@ -47,8 +60,35 @@
 .styles__containerCalculator___rIxcP {
   margin-bottom: 10px;
 }
-.styles__seeMore___3XRTO {
-  margin-bottom: 20px !important;
+#styles__seeMore___3XRTO {
+  margin-left: 15% !important;
+}
+.style__similarHomeSlide__33UUN {
+  width: 260px !important;
+  height: 150px !important;
+  border-bottom: 1px solid black;
+}
+.style__simHomesDetails__QZAoh {
+  margin-top: -15px !important;
+}
+.style__simHomesPrice__2XHON {
+  margin-top: -13px !important;
+}
+.style__simHomesLine2__1ePR- {
+  position: relative;
+  top: -20px;
+}
+.style__simHomesAddress__Wo2Yn {
+  margin-bottom: 14px !important;
+}
+.style__simHomesLine3__1PT_l {
+  position: relative;
+  top: -7px;
+}
+.style__similarHomesSeeAll__1uP5n {
+  margin-left: unset !important;
+  position: relative;
+  left: 25%;
 }
 .xOut > svg {
   width: 20px;
@@ -99,6 +139,16 @@
 }
 .style__results-container__142a4 {
   max-height: 85vh;
+  overflow-y: unset !important;
+}
+.styles__containerFactsItems___3mAzb {
+  justify-content: space-evenly;
+}
+.styles__containerFactsItems___3mAzb {
+  align-items: center;
+}
+.styles__fact___3CsWB {
+  width: 28% !important;
 }
 .style__results-buttons-row__2xr3d {
   position: relative !important;
