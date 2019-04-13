@@ -4,10 +4,20 @@
   margin-bottom: 25px;
 }
 #form-service {
-  margin-left: 55px;
+  margin-left: 5%;
 }
 .style__formOuterContainer___12WXq {
   padding-bottom: 5px;
+}
+.styles__containerTop___3ChHD > div > h5 {
+  display: flex;
+  align-items: center;
+}
+#red-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
 }
 .similar-homes-container > h1 {
   margin-left: 25%;
@@ -53,8 +63,6 @@
   opacity: 1;
   width: 100%;
   z-index: 10000000000;
-  /* padding-left: 0.5%;
-  padding-right: 0.5%; */
   overflow-y: scroll;
   margin-top: -5px;
 }
@@ -67,6 +75,12 @@
 }
 body {
   overflow: hidden;
+}
+.style__endMainContainer___Ql7_y {
+  height: 100% !important;
+}
+.style__savedHomesContainer___3ekpi {
+  width: unset !important;
 }
 .googleMapContainer {
   width: 63vw !important;
